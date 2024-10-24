@@ -3,9 +3,10 @@
     color:#f3eeee;
 }
 body{
-    background-color: rgb(4, 49, 66);
+    /*background-color: rgb(4, 49, 66);*/
     opacity: none;
     margin: 0;
+    background-image: "/img/img1.jpg";
 }
 .tit{
     padding-top: 4rem;
