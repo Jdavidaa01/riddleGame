@@ -1,0 +1,61 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#f3eeee;
+}
+body{
+    background-color: rgb(4, 49, 66);
+    opacity: none;
+    margin: 0;
+}
+.tit{
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+label{
+    font-weight: bold;
+    font-size: 1em;
+}
+input{
+    padding:10px;
+    margin:1rem;
+    font-style: italic;
+    color: red;
+}
+#checkbtn{
+    margin-left: 47%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+#check{
+    align-content: center;
+    color: whitesmoke;
+    padding: 1rem;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: green;
+    border: none;
+}
+#mesage{
+    margin-left: 10%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
