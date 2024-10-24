@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riddle Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <title>Riddle Game</title>
-    <h1>Juego de adivinanza entre el 1 y el 100</h1>
-    <form action="">
-        <label for="">INGRESE SU NOMBRE : </label>
-        <input type="text" name="" id="">
-        <label for="">INGRESE EL NUMERO</label>
-        <input type="text" name="" id="">
+<body id="background">
+    <h1 class="tit" id="tit">Riddle Game</h1>
+    <h1 id="text">Juego de adivinanza entre el 1 y el 100</h1>
+    <form action="" id="container-form" class="container-form">
+        <label for="name">INGRESE SU NOMBRE : </label>
+        <input type="text" name="getname" id="nameplayer">
+        <label for="num">INGRESE EL NUMERO</label>
+        <input type="text" name="getnum" id="numplayer">
     </form>
-    <div>
-        <button>
+    <div id="checkbtn">
+        <button onclick = "checkAns()">
             PLAY !
         </button>
     </div>
-    <p>Mensaje</p>
+    <p id="mesage"></p>
+    <script src="/script.js"></script>
 </body>
 </html>
